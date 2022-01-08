@@ -6,9 +6,9 @@
 }
 
 main{
-  border: 1px solid #fff;
   aspect-ratio: 9/16;
   border-radius: 3px;
   max-width: 375px;
+  overflow-y: scroll;
   width: 100vw;
 }
