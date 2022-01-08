@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .player {
   width:62px;
   height: 62px;
