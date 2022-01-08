@@ -12,3 +12,7 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.hidden {
+  opacity: 0;
+}
