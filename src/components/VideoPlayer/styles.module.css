@@ -1,6 +1,7 @@
 .video {
   width: 100%;
   height: 100%;
+  min-height: 100vh;
 }
 
 .wrapper {
@@ -8,13 +9,17 @@
 }
 
 .player {
-  width:62px;
-  height: 62px;
   background-color: transparent;
   background-image: url("assets/player.png");
-  background-size: contain;
-  background-repeat: no-repeat;
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
+  height: 62px;
+  inset: 0;
+  margin: auto;
+  position: absolute;
+  width: 62px;
 }
 
 .hidden {
@@ -38,4 +43,22 @@
   margin-bottom: 15px;
   text-align: center;
   align-items: center;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.user img:first-child {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+}
+
+.user img:last-child {
+  margin-top: -8px;
 }
